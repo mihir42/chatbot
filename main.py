@@ -9,12 +9,16 @@ def response(prompt) :
         return "You asked: " + prompt
 
 conversation_history = []
+try:
+    with open("chat_history.json", "r") as file:
+        conversation_history = json.load(file)
+except FileNotFoundError:
+    conversation_history = []
 
-with open("chat_history.json", "r") as file:
-    conversation_history = json.load(file)
+print("This is a simple chatbot, Say Hi, Hello, What's your name? or type 'exit' to leave.")
 
 while True:
-    prompt = input("Ask (Ex. 'Hello') (to exit Type 'exit'): ").lower().strip()
+    prompt = input("Ask : ").lower().strip()
     res = response(prompt)
     if prompt == "exit" :
         break
@@ -23,6 +27,6 @@ while True:
             print(i)
     else: 
         print(res)
-        conversation_history.append({"prompt":prompt,"response":res})
+        conversation_history.append({"Prompt":prompt,"Response":res})
         with open("chat_history.json", "w") as file:
             json.dump(conversation_history,file)
