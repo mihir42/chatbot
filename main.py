@@ -23,7 +23,7 @@ except FileNotFoundError:
 print("This is a simple chatbot, Say Hi, Hello, What's your name? or type 'exit' to leave.")
 
 while True:
-    prompt = input("Ask : ").lower().strip()
+    prompt = input("Ask: ").lower().strip()
 
     if prompt == "exit" :
         break
