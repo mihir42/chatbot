@@ -1,0 +1,38 @@
+[
+  {
+    "Prompt": "hi",
+    "Response": "Hi there!"
+  },
+  {
+    "Prompt": "helo",
+    "Response": "Hi there!"
+  },
+  {
+    "Prompt": "what is your name?",
+    "Response": "I'm a simple Chatbot!"
+  },
+  {
+    "Prompt": "what is the color of sky?",
+    "Response": "You asked: what is the color of sky?"
+  },
+  {
+    "Prompt": "your name?",
+    "Response": "I'm a simple Chatbot!"
+  },
+  {
+    "Prompt": "hi",
+    "Response": "Hi there!"
+  },
+  {
+    "Prompt": "cat",
+    "Response": "You asked: cat"
+  },
+  {
+    "Prompt": "hi",
+    "Response": "Hi there!"
+  },
+  {
+    "Prompt": "hi",
+    "Response": "Hi there!"
+  }
+]
