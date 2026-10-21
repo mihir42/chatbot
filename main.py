@@ -2,25 +2,29 @@
 
 #json for saving chat history.
 import  json
+import random
 
 def response(prompt) :
     if prompt in ( "hello", "hi", "hey", "howdy", "helo") :
-        return "Hi there!"
+        return random.choice (["Hi there!", "Hello!","Hey!"])
     elif "your name" in prompt:
         return "I'm a simple Chatbot!"
+    elif "how are you" in prompt:
+        return "I can't feel things :)"
     else : 
         return f"You asked: {prompt}"
 
 conversation_history = []
 
-#try/except for the first time the progran is run.
+#try/except for the first time the program is run.
 try:
     with open("chat_history.json", "r") as file:
         conversation_history = json.load(file)
 except FileNotFoundError:
     conversation_history = []
 
-print("This is a simple chatbot, Say Hi, Hello, What's your name? or type 'exit' to leave.")
+print("\nThis is a simple chatbot.")
+print("Say Hi, Hello, How are you?, What's your name? or type 'exit' to leave.")
 
 while True:
     prompt = input("Ask: ").lower().strip()

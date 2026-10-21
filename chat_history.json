@@ -8,24 +8,36 @@
     "Response": "Hi there!"
   },
   {
-    "Prompt": "what is your name?",
-    "Response": "I'm a simple Chatbot!"
+    "Prompt": "how are you",
+    "Response": "I can't feel things :)"
   },
   {
-    "Prompt": "what is the color of sky?",
-    "Response": "You asked: what is the color of sky?"
+    "Prompt": "how are you?",
+    "Response": "I can't feel things :)"
   },
   {
-    "Prompt": "your name?",
-    "Response": "I'm a simple Chatbot!"
+    "Prompt": "ok",
+    "Response": "You asked: ok"
+  },
+  {
+    "Prompt": "hi",
+    "Response": "Hey!"
+  },
+  {
+    "Prompt": "hi",
+    "Response": "Hey!"
+  },
+  {
+    "Prompt": "hello",
+    "Response": "Hi there!"
   },
   {
     "Prompt": "hi",
     "Response": "Hi there!"
   },
   {
-    "Prompt": "cat",
-    "Response": "You asked: cat"
+    "Prompt": "hi",
+    "Response": "Hello!"
   },
   {
     "Prompt": "hi",
@@ -33,6 +45,6 @@
   },
   {
     "Prompt": "hi",
-    "Response": "Hi there!"
+    "Response": "Hey!"
   }
 ]
