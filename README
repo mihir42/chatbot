@@ -1,6 +1,6 @@
 This is a simple chatbot I made to practice the Python concepts I’ve learned so far.
 
-It can respond to simple greetings and questions about its name. 
+It can respond to simple greetings.
 
 Type history to see previous chats.
 
