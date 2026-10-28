@@ -1,50 +1,26 @@
 [
   {
-    "Prompt": "hi",
-    "Response": "Hi there!"
-  },
-  {
-    "Prompt": "helo",
-    "Response": "Hi there!"
-  },
-  {
-    "Prompt": "how are you",
-    "Response": "I can't feel things :)"
-  },
-  {
-    "Prompt": "how are you?",
-    "Response": "I can't feel things :)"
-  },
-  {
-    "Prompt": "ok",
-    "Response": "You asked: ok"
-  },
-  {
-    "Prompt": "hi",
-    "Response": "Hey!"
-  },
-  {
-    "Prompt": "hi",
-    "Response": "Hey!"
-  },
-  {
-    "Prompt": "hello",
-    "Response": "Hi there!"
-  },
-  {
-    "Prompt": "hi",
-    "Response": "Hi there!"
-  },
-  {
-    "Prompt": "hi",
+    "Prompt": "Hi",
     "Response": "Hello!"
   },
   {
-    "Prompt": "hi",
-    "Response": "Hi there!"
+    "Prompt": "Hey",
+    "Response": "Hey!"
   },
   {
-    "Prompt": "hi",
-    "Response": "Hey!"
+    "Prompt": "What's your name",
+    "Response": "I'm a simple Chatbot!"
+  },
+  {
+    "Prompt": "How are you?",
+    "Response": "I can't feel things :)"
+  },
+  {
+    "Prompt": "What is the color of sky",
+    "Response": "You asked: What is the color of sky"
+  },
+  {
+    "Prompt": "Howdy",
+    "Response": "Hello!"
   }
 ]
